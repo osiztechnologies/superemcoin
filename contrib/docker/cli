@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec supremecoin-cli --datadir=/supremecoin/data "${@}"

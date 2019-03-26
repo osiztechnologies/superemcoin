@@ -1,0 +1,17 @@
+Source: supremecoin
+Section: utils
+Priority: optional
+Maintainer: The Supremecoin Community <supremecoincommunity@gmail.com>
+Homepage: https://sghx.rocks
+Build-Depends: autoconf, automake, bsdmainutils, build-essential,
+ git, g++-multilib, libc6-dev, libtool,
+ m4, ncurses-dev, pkg-config, python,
+ unzip, wget, zlib1g-dev
+Vcs-Git: https://github.com/sghx/supremecoin.git
+Vcs-Browser: https://github.com/sghx
+
+Package: supremecoin
+Version: 1.4.0
+Depends: ${shlibs:Depends}
+Architecture: all
+Description: Supremecoin is a decentralized community project based on the Bitcoin and Zcash codebase.
