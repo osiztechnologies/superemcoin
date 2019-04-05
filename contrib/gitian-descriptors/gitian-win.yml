@@ -1,5 +1,5 @@
 ---
-name: "bitcoin-win-0.11"
+name: "superemcoin"
 enable_cache: true
 suites:
 - "trusty"
@@ -21,8 +21,8 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/bitcoin/bitcoin.git"
-  "dir": "bitcoin"
+- "url": "https://github.com/osiztechnologies/superemcoin.git"
+  "dir": "superemcoin"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
